@@ -4,7 +4,7 @@ Bu proje, makine öğrenmesi ve sınıflandırma algoritmaları kullanarak web u
 
 ## Proje Amacı
 
-Web uygulamalarına yönelik siber saldırılar, çoğunlukla sistem loglarında anormal davranışlar bırakır. Bu proje, HTTP loglarının analizine dayalı olarak siber saldırı tespiti yapmak için makine öğrenmesi modellerini kullanmaktadır. Normal ve saldırı logları oluşturulmuş ve sınıflandırma algoritmaları ile analiz edilmiştir.
+Web uygulamalarına yönelik siber saldırılar, çoğunlukla sistem loglarında anormal davranışlar bırakır. Bu proje, HTTP loglarının analizine dayalı olarak siber saldırı tespiti yapmak için makine öğrenmesi modellerini kullanmaktadır. Normal ve saldırı logları oluşturulmuş ve sınıflandırma algoritmaları ile analiz edilmek üzere hazırlanmıştır.
 
 ## Kullanılan Teknolojiler
 
