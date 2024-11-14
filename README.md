@@ -1,6 +1,6 @@
 # Web Uygulamalarına Yönelik Siber Saldırıların Log Analizi ile Tespiti (Grup No:114)
 
-Bu proje, makine öğrenmesi ve sınıflandırma algoritmaları kullanarak web uygulamalarına yönelik siber saldırıları tespit etmeyi amaçlamaktadır. Proje kapsamında, popüler saldırı simülasyon araçları (Acunetix, Netsparker, OWASP ZAP gibi) kullanılarak oluşturulan saldırı logları ile normal kullanıcı logları karşılaştırılmıştır.
+Bu proje, makine öğrenmesi ve sınıflandırma algoritmaları kullanarak web uygulamalarına yönelik siber saldırıları tespit etmeyi amaçlamaktadır. Proje kapsamında, popüler saldırı simülasyon araçları (Acunetix, Netsparker, OWASP ZAP gibi) kullanılarak oluşturulan saldırı logları ile normal kullanıcı logları karşılaştırılmıştır ve makine öğrenmesi projesinde kullanılmak üzere hazırlanmıştır. Ayrıca isterlerden en önemlisi ve makine öğrenmesinde büyük bir öneme sahip olan "Web Scraping" içlemi için bir DEMO uygulaması yapılmıştır. Bu uygulamada bir e-Ticaret sisteminden çeşitli ürünlerin marka-model-çeşitli özellikler gibi bilgileri Web Scraping içlemi ile çekilmiştir.
 
 ## Proje Amacı
 
