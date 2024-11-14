@@ -25,5 +25,5 @@ Web uygulamalarına yönelik siber saldırılar, çoğunlukla sistem loglarında
 Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
 1. **Gereklilikler:** Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu kullanın:
-   ```pip install -r Web Kazıma/requirements.txt``` ardından ```python3 Web Kazıma/main.py``` ile ilgili python dosyasını çalışıtırın.
+   ```pip install -r "Web Scraping/requirements.txt"``` ardından ```python3 "Web Scraping/main.py"``` ile ilgili python dosyasını çalışıtırın.
 
