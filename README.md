@@ -32,6 +32,6 @@ Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
 3. İlgili Python kütüphanelerini sisteminize kurun (`flask,flask_cors,uuid,pymysql,hashlib,jwt,numpy,ast,requests,datetime`). Bunun için `python pip `aracını kullanabilirsini.
 4. app.py dosyasında yer alan veri tabanı bağlantı bilgilerinin doğru olduğundan emin olun.
 5. `python3.exe app.py` komutunu çalıştırarak uygulamayı ayağa kaldırın
-6. Yazılan Raporda anlatılan zafiyetli web uygulaması ve log üretme aşamasında ortaya çıkan sonuçlar "E-Commerce App & Logs/ring.local/logs"
+6. Yazılan Raporda anlatılan zafiyetli web uygulaması ve log üretme aşamasında ortaya çıkan sonuçlar `E-Commerce App & Logs/ring.local/logs`
    
 
