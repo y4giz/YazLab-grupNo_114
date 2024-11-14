@@ -25,6 +25,5 @@ Web uygulamalarına yönelik siber saldırılar, çoğunlukla sistem loglarında
 Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
 1. **Gereklilikler:** Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu kullanın:
-   ```pip install -r requirements.txt```
-   ```python3 main.py```
+   ```pip install -r requirements.txt``` ardından ```python3 main.py``` ile ilgili python dosyasını çalışıtırın.
 
