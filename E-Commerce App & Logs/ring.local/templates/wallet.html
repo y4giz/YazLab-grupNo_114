@@ -112,25 +112,41 @@
     <!-- Products Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
-            <h3 class="section-title px-5"><span class="px-2">Address</span></h3>
+            <h3 class="section-title px-5"><span class="px-2">My Wallet</span></h3>
         </div>
-		<div class="text-center mb-4" id="address-result">
+		<div class="text-center mb-4" id="deposit-result">
+        </div>
+		<div class="text-center mb-4" id="registration-result">
         </div>
         <div class="text-center mb-4">
            <div class="container mt-3">
 				<form>
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="header" placeholder="Address Header"
-                                required="required" data-validation-required-message="Please enter your address header" />
+                        <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+							<h1 class="fas fa-wallet text-primary m-0 mr-3"></h1>
+							<h5 class="font-weight-semi-bold m-0" id="my-balance"></h5>
+						</div>
+						<div class="control-group">
+                            <input type="number" class="form-control" id="deposit-value" placeholder="Deposit Value"
+                                required="required" data-validation-required-message="Please enter your deposit value" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control" id="address" placeholder="Address"
-                                required="required" data-validation-required-message="Please enter your address" /></textarea>
+                            <input type="number" class="form-control" id="card-number" placeholder="Card Number"
+                                required="required" data-validation-required-message="Please enter your card number"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="date" placeholder="MM/YY"
+                                required="required" data-validation-required-message="Please enter a date"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+						<div class="control-group">
+                            <input type="text" class="form-control" id="cvc" placeholder="CVC"
+                                required="required" data-validation-required-message="Please enter a lastname"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                            <a class="btn btn-primary py-2 px-4" id="addressButton" onclick="setAddress()">Update</a>
+                            <a class="btn btn-primary py-2 px-4"  id="depositButton" onclick="deposit()">Deposit</a>
                         </div>
                 </form>
             </div>
@@ -231,7 +247,7 @@
 		window.onload = function() 
 		{
 			checkAuthorizationHeader();
-			getAddress();
+			getWallet();
 		};
 	</script>
 </body>
