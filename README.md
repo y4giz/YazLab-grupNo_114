@@ -26,7 +26,7 @@ Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
 **Gereklilikler:** Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu kullanın:
    ```pip install -r "Web Scraping/requirements.txt"``` ardından ```python3 "Web Scraping/main.py"``` ile ilgili python dosyasını çalışıtırın.
 
-## Elde edilen veriler ile Geliştirilen Makine Öğrenmesi Modeli ile Gerçekleştirilen Uygulama - İsterler Dışında Yapılan Uygulama -
+## Elde edilen veriler ile Geliştirilen Makine Öğrenmesi Modeli ile Gerçekleştirilen Uygulama ```İsterler Dışında Yapılan Uygulama```
 1. ```cd Machine Learning Application Demo```
 2. ```./sklearn-env/Scripts/pip3.exe install -r requirements.txt"```
 3. ```./sklearn-env/Scripts/python.exe main.py```
