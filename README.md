@@ -20,10 +20,18 @@ Web uygulamalarına yönelik siber saldırılar, çoğunlukla sistem loglarında
 2. **Makine Öğrenmesi ile Saldırı Tespiti:** Sınıflandırma algoritmaları ile saldırı tespiti yapılması.
 3. **Demo Uygulama:** Web kazıma teknikleri kullanılarak e-ticaret sitesinden ürün bilgileri çekme.
 
-## Kurulum (Web Scraping Demo)
+## Web Scraping Demo
 
 Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
-
-1. **Gereklilikler:** Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu kullanın:
+**Gereklilikler:** Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu kullanın:
    ```pip install -r "Web Scraping/requirements.txt"``` ardından ```python3 "Web Scraping/main.py"``` ile ilgili python dosyasını çalışıtırın.
+
+## E-Ticaret Uygulamasının Ayağa Kaldırılması ve Logların görüntülenmesi
+1. DBMS Üzerinde "ring" isminde bir Veri Tabanı Oluşturun.
+2. ring.sql dosyası içerisinde yer alan SQL komutlarını "ring" Veri Tabanı içerinde çalıştırın. İlgili tabloların ve ilişkilerin oluşturulmasını sağlayın.
+3. İlgili Python kütüphanelerini sisteminize kurun (`flask,flask_cors,uuid,pymysql,hashlib,jwt,numpy,ast,requests,datetime`). Bunun için `python pip `aracını kullanabilirsini.
+4. app.py dosyasında yer alan veri tabanı bağlantı bilgilerinin doğru olduğundan emin olun.
+5. `python3.exe app.py` komutunu çalıştırarak uygulamayı ayağa kaldırın
+6. Yazılan Raporda anlatılan zafiyetli web uygulaması ve log üretme aşamasında ortaya çıkan sonuçlar "E-Commerce App & Logs/ring.local/logs"
+   
 
