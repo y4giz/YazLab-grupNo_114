@@ -1,0 +1,9 @@
+pymysql
+flask
+flask_cors
+uuid
+PyJwt
+flask-session
+numpy
+datetime
+requests
