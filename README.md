@@ -27,6 +27,7 @@ Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
    ```pip install -r "Web Scraping/requirements.txt"``` ardından ```python3 "Web Scraping/main.py"``` ile ilgili python dosyasını çalışıtırın.
 
 ## Elde edilen veriler ile Geliştirilen Makine Öğrenmesi Modeli ile Gerçekleştirilen Uygulama ```İsterler Dışında Yapılan Uygulama```
+Proje esnasında elde edilen siber saldırı log'ları ile bir makine öğrenmesi modeli geliştirilmiştir. Bu model proje isterleri dışında olup sadece verilerin makine öğrenmesine uygun olduğunu göstermektedir.
 1. ```cd Machine Learning Application Demo```
 2. ```./sklearn-env/Scripts/pip3.exe install -r requirements.txt"```
 3. ```./sklearn-env/Scripts/python.exe main.py```
